@@ -4,7 +4,6 @@
 #
 # Example method call:
 #
-# print_contacts(contacts)
 #
 # > Brian has a phone number of 333-333-3333
 # > Lenny has a phone number of 444-444-4444
@@ -17,3 +16,10 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+def print_contacts (object)
+object.each {|key, value| p "#{key} has a phone number of #{value}" }
+
+end
+
+print_contacts(contacts)

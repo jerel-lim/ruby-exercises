@@ -5,7 +5,17 @@
 #
 # Example method call
 #
-# factorial(5)
 #
 # > 120
 #
+
+
+def factorial(num)
+  if num <= 1
+  1
+ else
+p num * factorial(num-1)
+  end
+end
+
+factorial(5)
